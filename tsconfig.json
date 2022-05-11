@@ -21,7 +21,13 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "test-webpack-plugin": [
+        "dist/test-webpack-plugin/test-webpack-plugin",
+        "dist/test-webpack-plugin"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

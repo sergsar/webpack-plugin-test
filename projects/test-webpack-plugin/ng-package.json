@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/test-webpack-plugin",
+  "lib": {
+    "entryFile": "test-plugin/public_api.ts"
+  }
+}
