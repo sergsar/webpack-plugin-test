@@ -1,0 +1,39 @@
+{
+  "name": "test-webpack-plugin",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/test-webpack-plugin.mjs",
+  "es2020": "fesm2020/test-webpack-plugin.mjs",
+  "esm2020": "esm2020/test-webpack-plugin.mjs",
+  "fesm2020": "fesm2020/test-webpack-plugin.mjs",
+  "fesm2015": "fesm2015/test-webpack-plugin.mjs",
+  "typings": "test-webpack-plugin.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./test-webpack-plugin.d.ts",
+      "esm2020": "./esm2020/test-webpack-plugin.mjs",
+      "es2020": "./fesm2020/test-webpack-plugin.mjs",
+      "es2015": "./fesm2015/test-webpack-plugin.mjs",
+      "node": "./fesm2015/test-webpack-plugin.mjs",
+      "default": "./fesm2020/test-webpack-plugin.mjs"
+    },
+    "./test-plugin": {
+      "types": "./test-plugin/test-webpack-plugin-test-plugin.d.ts",
+      "esm2020": "./esm2020/test-plugin/test-webpack-plugin-test-plugin.mjs",
+      "es2020": "./fesm2020/test-webpack-plugin-test-plugin.mjs",
+      "es2015": "./fesm2015/test-webpack-plugin-test-plugin.mjs",
+      "node": "./fesm2015/test-webpack-plugin-test-plugin.mjs",
+      "default": "./fesm2020/test-webpack-plugin-test-plugin.mjs"
+    }
+  },
+  "sideEffects": false
+}

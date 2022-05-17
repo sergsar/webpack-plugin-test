@@ -1,0 +1,10 @@
+{
+  "module": "../fesm2015/test-webpack-plugin-test-plugin.mjs",
+  "es2020": "../fesm2020/test-webpack-plugin-test-plugin.mjs",
+  "esm2020": "../esm2020/test-plugin/test-webpack-plugin-test-plugin.mjs",
+  "fesm2020": "../fesm2020/test-webpack-plugin-test-plugin.mjs",
+  "fesm2015": "../fesm2015/test-webpack-plugin-test-plugin.mjs",
+  "typings": "test-webpack-plugin-test-plugin.d.ts",
+  "sideEffects": false,
+  "name": "test-webpack-plugin/test-plugin"
+}
